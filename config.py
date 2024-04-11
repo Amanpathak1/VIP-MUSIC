@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(getenv("22253680"))
 API_HASH = getenv("4fc4c646519fe43891bebd1449744b7e")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("7002422588:AAGixVSZLgVIOEri9LIA065ryYxbDFRGXE4")
+BOT_TOKEN = getenv("6612145694:AAGKlg21rARF6wFfFqetC4HGeVtOUQu761E")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -22,7 +22,7 @@ LOGGER_ID = int(getenv("6352927253"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002048635283"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("22253680"))
+OWNER_ID = int(getenv("6352927253"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
