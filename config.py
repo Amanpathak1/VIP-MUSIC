@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(getenv("22253680"))
 API_HASH = getenv("4fc4c646519fe43891bebd1449744b7e")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("6982477297:AAFszWW5pEMVhvLIqQdFhv-U9IzmcSfrazU")
+BOT_TOKEN = getenv("7010350698:AAE1wY943XwT2H0t-p-WnI8WQax_RBiN4uE")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -19,7 +19,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("6352927253"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002048635283"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002084632442"))
 
 # Get this value from  on Telegram by /id
 OWNER_ID = int(getenv("6352927253"))
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Amanp_music")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Amanp_music")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/panditji_music_support")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/panditji_music_support")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
